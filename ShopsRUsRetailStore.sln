@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{642E0231-8BA9-4EC2-883F-0495275971F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{393E7F0D-FD86-4A43-B3F7-5974358364AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopsRUsRetailStore.Core", "src\ShopsRUsRetailStore.Core\ShopsRUsRetailStore.Core.csproj", "{1651C250-4D8B-4B52-9B23-1BACCB94BEA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopsRUsRetailStore.Entities", "src\ShopsRUsRetailStore.Entities\ShopsRUsRetailStore.Entities.csproj", "{681DA686-9566-4B6A-8FF0-37A260D2BF4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopsRUsRetailStore.Data", "src\ShopsRUsRetailStore.Data\ShopsRUsRetailStore.Data.csproj", "{8FC91E92-5283-4EEA-8640-070AE1571B0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopsRUsRetailStore.Services", "src\ShopsRUsRetailStore.Services\ShopsRUsRetailStore.Services.csproj", "{585EE055-3470-41B6-BF9D-0E2660489BF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopsRUsRetailStore.API", "src\ShopsRUsRetailStore.API\ShopsRUsRetailStore.API\ShopsRUsRetailStore.API.csproj", "{EA77FA5A-85E8-4CC7-843C-000EB98E3BD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopsRUsRetailStore.Test", "test\ShopsRUsRetailStore.Test\ShopsRUsRetailStore.Test.csproj", "{D4B9751F-641A-4826-AD37-904454A3F876}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{9A6B8413-76FA-4F38-A1B9-F67DD13DFBDE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\shoprus\code-metrics-results.png = ..\..\..\Desktop\shoprus\code-metrics-results.png
+		..\..\..\Desktop\shoprus\discount-add-validation-1.png = ..\..\..\Desktop\shoprus\discount-add-validation-1.png
+		..\..\..\Desktop\shoprus\discount-add-validation.png = ..\..\..\Desktop\shoprus\discount-add-validation.png
+		..\..\..\Desktop\shoprus\discount-add.png = ..\..\..\Desktop\shoprus\discount-add.png
+		..\..\..\Desktop\shoprus\discount-get.png = ..\..\..\Desktop\shoprus\discount-get.png
+		..\..\..\Desktop\shoprus\discount-getlist.png = ..\..\..\Desktop\shoprus\discount-getlist.png
+		..\..\..\Desktop\shoprus\order-getlist.png = ..\..\..\Desktop\shoprus\order-getlist.png
+		..\..\..\Desktop\shoprus\to-mant-req-test.png = ..\..\..\Desktop\shoprus\to-mant-req-test.png
+		..\..\..\Desktop\shoprus\user-add.png = ..\..\..\Desktop\shoprus\user-add.png
+		..\..\..\Desktop\shoprus\user-get.png = ..\..\..\Desktop\shoprus\user-get.png
+		..\..\..\Desktop\shoprus\user-getlist.png = ..\..\..\Desktop\shoprus\user-getlist.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1651C250-4D8B-4B52-9B23-1BACCB94BEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1651C250-4D8B-4B52-9B23-1BACCB94BEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1651C250-4D8B-4B52-9B23-1BACCB94BEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1651C250-4D8B-4B52-9B23-1BACCB94BEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681DA686-9566-4B6A-8FF0-37A260D2BF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681DA686-9566-4B6A-8FF0-37A260D2BF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681DA686-9566-4B6A-8FF0-37A260D2BF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681DA686-9566-4B6A-8FF0-37A260D2BF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC91E92-5283-4EEA-8640-070AE1571B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC91E92-5283-4EEA-8640-070AE1571B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC91E92-5283-4EEA-8640-070AE1571B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC91E92-5283-4EEA-8640-070AE1571B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585EE055-3470-41B6-BF9D-0E2660489BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585EE055-3470-41B6-BF9D-0E2660489BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585EE055-3470-41B6-BF9D-0E2660489BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585EE055-3470-41B6-BF9D-0E2660489BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA77FA5A-85E8-4CC7-843C-000EB98E3BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA77FA5A-85E8-4CC7-843C-000EB98E3BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA77FA5A-85E8-4CC7-843C-000EB98E3BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA77FA5A-85E8-4CC7-843C-000EB98E3BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B9751F-641A-4826-AD37-904454A3F876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B9751F-641A-4826-AD37-904454A3F876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B9751F-641A-4826-AD37-904454A3F876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B9751F-641A-4826-AD37-904454A3F876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1651C250-4D8B-4B52-9B23-1BACCB94BEA7} = {642E0231-8BA9-4EC2-883F-0495275971F3}
+		{681DA686-9566-4B6A-8FF0-37A260D2BF4F} = {642E0231-8BA9-4EC2-883F-0495275971F3}
+		{8FC91E92-5283-4EEA-8640-070AE1571B0C} = {642E0231-8BA9-4EC2-883F-0495275971F3}
+		{585EE055-3470-41B6-BF9D-0E2660489BF2} = {642E0231-8BA9-4EC2-883F-0495275971F3}
+		{EA77FA5A-85E8-4CC7-843C-000EB98E3BD2} = {642E0231-8BA9-4EC2-883F-0495275971F3}
+		{D4B9751F-641A-4826-AD37-904454A3F876} = {393E7F0D-FD86-4A43-B3F7-5974358364AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCDB9EA2-2AB8-4E3F-BE2D-E70FF8F6E293}
+	EndGlobalSection
+EndGlobal

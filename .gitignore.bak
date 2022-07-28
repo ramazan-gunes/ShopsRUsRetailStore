@@ -266,3 +266,6 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/
+Evodice.AppServer/Evodice.AppServer.API/healthchecks.db-wal
+Evodice.AppServer/Evodice.AppServer.API/healthchecks.db
+Evodice.AppServer/Evodice.AppServer.API/healthchecks.db-shm
